@@ -1,8 +1,15 @@
+*{
+    font-family: 'Jost', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
+}
 .bg-secondar {
     background-color:#d7f0e1 !important ;
 }
 .bg-1 {
     background-color: #074544;
+}
+.btn-bg {
+    background-color: #074544 !important;
 }
 .text-primar {
     color: #074544;
