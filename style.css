@@ -18,6 +18,9 @@ a {
 .btn-primary {
     background-color: #eb7575 !important;
 }
+.btn-secondary {
+    background-color: #074544 !important;
+}
 .connect {
     letter-spacing: 2px;
 }
