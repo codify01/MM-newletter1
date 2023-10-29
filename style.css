@@ -1,0 +1,27 @@
+.bg-secondar {
+    background-color:#d7f0e1 !important ;
+}
+.bg-1 {
+    background-color: #074544;
+}
+.text-primar {
+    color: #074544;
+}
+.week-p {
+    font-size: 2rem;
+}
+a {
+    text-decoration: none !important;
+    color: #074544 !important;
+    text-transform: capitalize !important;
+}
+.btn-primary {
+    background-color: #eb7575 !important;
+}
+.connect {
+    letter-spacing: 2px;
+}
+.icon {
+    fill: currentColor;
+    color: #074544;
+}
