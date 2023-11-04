@@ -1,37 +1,108 @@
-*{
-    font-family: 'Jost', sans-serif;
-    /* font-family: 'Nunito', sans-serif; */
+body {
+    width: 650px;
+    margin: auto !important;
 }
-.bg-secondar {
-    background-color:#d7f0e1 !important ;
+header {
+    text-align: center;
 }
-.bg-1 {
-    background-color: #074544;
+.secOne, .con-div {
+    background-color: blue;
+    text-align: center;
 }
-.btn-bg {
-    background-color: #074544 !important;
+.pregnancy-h{
+    text-align: center;
+    background-color: rgb(145, 141, 141);
+    padding: 7px;
+    font-size: 1.5rem;
 }
-.text-primar {
-    color: #074544;
+.myBaby, .myBaby-h {
+    text-align: center;
+    font-size: 1.7rem;
+    padding-top: 20px;
 }
-.week-p {
+.myBaby-h {
     font-size: 2rem;
+    line-height: 4px;
+}
+.week, .week-h {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 4px;
+    /* margin-top: -20px; */
+}
+.week-h {
+    font-size: 2.5rem;
+}
+.readMore, .readMore-s {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: green;
+    border: none;
+    margin-bottom: 10px;
+}
+.readMore-s {
+    background-color: brown;
 }
 a {
-    text-decoration: none !important;
-    color: #074544 !important;
-    text-transform: capitalize !important;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
-.btn-primary {
-    background-color: #eb7575 !important;
+.secThree {
+    text-align: center;
 }
-.btn-secondary {
-    background-color: #074544 !important;
+h4 {
+    font-size: 1.5rem;
+}
+.questions {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 10px;
+}
+h5{
+    font-size: 2rem;
+    text-align: center;
+}
+.doYou {
+    font-size: 1.3rem;
+}
+.burning {
+    background-color: white;
+    padding: 20px;
+}
+.secSeven {
+    background-color: blue;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 15px;
 }
 .connect {
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
+    font-size: 1.2rem;
 }
 .icon {
-    fill: currentColor;
-    color: #074544;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+@media screen and (max-width:767px) {
+    body {
+        width: 100%;
+    }
+    .week, .week-h {
+        font-size: 2.5rem;
+        text-align: center;
+        font-weight: 600;
+        line-height: 4px;
+        /* margin-top: -20px; */
+    }
+    .week-h {
+        font-size: 2.2rem;
+    }
 }
