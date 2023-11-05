@@ -1,5 +1,6 @@
 body {
-    width: 650px;
+    text-align: center !important;
+    width: 650px ;
     margin: auto !important;
     font-family: 'Jost', sans-serif;
     /* font-family: 'Nunito', sans-serif; */
@@ -25,63 +26,61 @@ section {
     background-color: #133729;
     color: #fff;
     padding: 7px;
-    font-size: 1.2em;
+    font-size: 18px;
 }
 .myBaby, .myBaby-h {
     text-align: center;
     color: #133729;
-    font-size: 1.4rem;
+    font-size: 20px;
     padding-top: 20px;
 }
 .myBaby-h {
-    font-size: 2rem;
+    font-size: 18px;
     line-height: 4px;
 }
 .week, .week-h {
     color: #133729;
-    font-size: 3rem;
+    font-size: 22px;
     text-align: center;
-    font-weight: 800;
-    line-height: 4px;
+    font-weight: bolder;
+    /* line-height: 4px; */
     /* margin-top: -20px; */
-}
-.week-h {
-    font-size: 2.5rem;
 }
 .readMore, .readMore-s {
     padding: 8px;
     border-radius: 5px;
-    background-color: #133729;
+    background-color: #133729 !important;
     border: none;
     margin-bottom: 10px;
 }
 .readMore-s {
-    background-color: #eb7575;
+    background-color: #eb7575 !important;
 }
 a {
     text-decoration: none;
     color: white;
-    font-size: 1.2rem;
     font-weight: 300;
 }
 .secThree {
     text-align: center;
 }
 h4 {
-    font-size: 1.2rem;
+    font-size: 18px;
 }
 .questions {
     display: flex;
     gap: 25px;
     align-items: center;
     margin-bottom: 10px;
+    text-align: start;
 }
 h5{
-    font-size: 2rem;
+    font-size: 20px;
     text-align: center;
+    color: #133729;
 }
 .doYou {
-    font-size: 1.1rem;
+    font-size: 17px;
 }
 .burning {
     background-color: white;
